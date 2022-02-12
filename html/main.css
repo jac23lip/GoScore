@@ -1,0 +1,47 @@
+:root{
+    --green: #00FF00;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+*{
+    color: var(--fontColor);
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: var(--bg);
+}
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    list-style: circle;
+}
+.lista {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style: square;
+}
+
+.light-theme{
+    --bg:(var(--green));
+    --fontColor:var(--black);
+    --btnBg:var(--black);
+    --btnFontColor:var(--white);
+}
+.dark-theme{
+    --bg:var(--black);
+    --fontColor:var(--green);
+    --btnBg:var(--white);
+    --btnFontColor:var(--black);
+}
+.btn{
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    height: 70px;
+    width: 70px;
+    border-radius: 60%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+    
+}
